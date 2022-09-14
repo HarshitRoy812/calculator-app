@@ -1,0 +1,119 @@
+*
+{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  background : #3c6e71;
+  user-select: none;
+}
+
+.main--div 
+{
+  display : flex;
+  flex-direction: column;
+  height : 80vh;
+  width : 26vw;
+  position : absolute;
+  top : 0;
+  bottom : 0;
+  left : 0;
+  right : 0;
+  margin : auto;
+  background : #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow : 0 5px 7px rgba(0,0,0,0.5);
+}
+
+.display 
+{
+  display : flex;
+  width : 100%;
+  height : 25%;
+  background : #353535;
+  justify-content: flex-end;
+  padding : 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  pointer-events: none;
+  align-items: center;
+  overflow : auto;
+}
+
+.display--h1 
+{
+  font-size : 60px;
+  color : #fff;
+  font-family: 'SF Pro Display Regular';
+}
+
+.keypad 
+{
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width : 100%;
+  height : 100%;
+  justify-content: space-around;
+  padding : 15px;
+}
+
+.key 
+{
+  flex-basis: 19%;
+  height : 16%;
+  width : 10%;
+  background : #6b9080;
+  color : #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius : 50%;
+  font-family : 'SF Pro Display Regular';
+  cursor: pointer;
+  margin-right : 5px;
+  margin : 10px;
+  transition : 0.2s;
+}
+
+.key:hover 
+{
+  background : #c8d5b9;
+}
+
+.key h2 
+{
+  font-size : 25px;
+}
+
+.ac,.equal
+{
+  background : #ff9f1c;
+  color : #fff;
+}
+.ac:hover,.equal:hover 
+{
+  background : #fb8500;
+}
+
+.num 
+{
+  background : #cce3de;
+}
+.num:hover 
+{
+  background : #bfd7ea;
+}
+
+
+.zero 
+{
+  flex : 2;
+  border-radius : 50px;
+}
