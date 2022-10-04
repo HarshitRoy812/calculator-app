@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HarshitRoy812/calculator-app.git/static/css/main.8a710234.css",
+    "main.js": "/HarshitRoy812/calculator-app.git/static/js/main.2ccc0744.js",
+    "static/js/787.a174f9e5.chunk.js": "/HarshitRoy812/calculator-app.git/static/js/787.a174f9e5.chunk.js",
+    "index.html": "/HarshitRoy812/calculator-app.git/index.html",
+    "main.8a710234.css.map": "/HarshitRoy812/calculator-app.git/static/css/main.8a710234.css.map",
+    "main.2ccc0744.js.map": "/HarshitRoy812/calculator-app.git/static/js/main.2ccc0744.js.map",
+    "787.a174f9e5.chunk.js.map": "/HarshitRoy812/calculator-app.git/static/js/787.a174f9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a710234.css",
+    "static/js/main.2ccc0744.js"
+  ]
+}
